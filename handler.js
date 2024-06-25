@@ -618,7 +618,7 @@ pp = await this.profilePictureUrl(user, 'image')
 let apii = await this.getFile(pp)                                      
 const botTt2 = groupMetadata.participants.find(u => this.decodeJid(u.id) == this.user.jid) || {} 
 const isBotAdminNn = botTt2?.admin === "admin" || false
-text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '𝗬𝗮𝗲𝗺𝗼𝗿𝗶𝗕𝗼𝘁-𝗠𝗗\n\n• 𝗚𝗿𝘂𝗽𝗼 𝘀𝗶𝗻 𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝗰𝗶𝗼𝗻.') :
+text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '𝗬𝗼𝘀𝗵𝗶𝗸𝗼𝗕𝗼𝘁-𝗠𝗗\n\n• 𝗚𝗿𝘂𝗽𝗼 𝘀𝗶𝗻 𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝗰𝗶𝗼𝗻.') :
 (chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0])
 
 if (chat.antifake && isBotAdminNn && action === 'add') {
@@ -657,7 +657,7 @@ mentionedJid:[user],
 "title": [wm, packname, botname].getRandom(),
 "containsAutoReply": true,
 "mediaType": 1, 
-sourceUrl: redesYoshi }}}, { quoted: fkontak2 })
+sourceUrl: redes }}}, { quoted: fkontak2 })
 apii.data = ''
 //this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }, { quoted: fkontak2 })
 }}}
