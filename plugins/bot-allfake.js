@@ -35,9 +35,7 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 global.creador = 'Wa.me/573012482597'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 global.asistencia = 'Wa.me/51939041500'
-global.namechannel = '🤍 𝗘𝗺𝗶𝗹𝗶𝗮 𝗥𝗲:𝘇𝗲𝗿𝗼 - 𝗠𝗗᭄ ᎪΝႮΝᏟᏆϴՏ'
-global.colab1 = '𝐆𝐚𝐭𝐚𝐁𝐨𝐭 & 𝐄𝐦𝐢𝐥𝐢𝐚𝐑𝐞𝐳𝐞𝐫𝐨'
-global.colab2 = '𝐀𝐥𝐢𝐬𝐚𝐊𝐮𝐣𝐨𝐮 & 𝐄𝐦𝐢𝐥𝐢𝐚𝐑𝐞𝐳𝐞𝐫𝐨'
+global.namechannel = '🤍 𝗬𝗼𝘀𝗵𝗶𝗸𝗼 𝗕𝗼𝘁 - 𝗠𝗗᭄ ᎪΝႮΝᏟᏆϴՏ'
 
 //Reacciones De Comandos.!
 global.rwait = '⏰'
