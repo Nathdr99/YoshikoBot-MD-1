@@ -57,9 +57,9 @@ var youtube = 'https://www.youtube.com/@Yoshiko_team'
 var github = 'https://github.com/OfcDiego/EmiliaRezero-MD' 
 var facebook = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' 
 
-global.redes = [canal, canal2, grupofb, git, youtube, github, facebook].getRandom()
+global.redesYoshi = [canal, canal2, grupofb, git, youtube, github, facebook].getRandom()
 
-global.canales = [canal, canal2].getRandom()
+global.canalesYoshi = [canal, canal2].getRandom()
 
 //Imagen & Video
 let category = "imagen"
